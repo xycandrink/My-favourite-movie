@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.top {
+    height: 380px;
+    background: #e6f4ff;
+}
+
+.top .top-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f4ff;
+    padding: 20px 0px;
+}
+
+.top .top-inner .top-text {
+    margin: 0 auto;
+    width: 70%;
+}
+.top .title {
+    font-weight: 400;
+}
+.top .text {
+    color: #626675;
+    margin-top: 8px;
+}
+.top .top-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.top .top-images img {
+    width: 339px;
+    height: 246px;
+}
+.top .images-item {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+/* 介绍部分 */
+.des {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    width: 1070px;
+    margin: 0 auto;
+}
+.inner-num {
+    margin: 30px 10px 30px 610px;
+    display: flex;
+    font-size: 12px;
+}
+.num-item {
+    padding: 0 8px;
+    border-right: 1px solid #eeeeee;
+}
+.num-tex {
+    color: #519cea
+}
+.num-number {
+    color: #888888;
+}
+.r {
+    border-right: 0;
+}
+.des-text {
+    margin: 10px 35px;
+    width: 700px;
+    line-height: 1.5em;
+}
+.des-text p {
+    font-size: 14px;
+    text-indent: 2em;
+}
+.des-item {
+    margin: 35px 30px;
+}
+.row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px dotted #626675;
+    width: 300px;
+}
+.left {
+    width: 90px;
+    text-align: left;
+    font-weight: 700;
+}
+.right {
+    color: #626675;
+    width: 262px;
+    padding-left: 22px;
+}
+.des-img {
+    margin: 40px 20px 40px 0;
+}
+.des .overall-image {
+    width: 300px;
+    height: 400px;
+}
+/* 基础信息 */
+.info {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    width: 1070px;
+    margin: 15px auto;
+}
+.info-title {
+    display: flex;
+    margin-top: 30px;
+}
+.blue {
+    width: 13px;
+    height: 30px;
+    background-color: #003eb3;
+    margin-right: 15px;
+}
+.info-title h2 {
+    font-weight: 400;
+}
+.info-hr {
+    width: 80%;
+    margin: 15px 10px;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+}
+.info-value {
+    display: flex;
+    font-size: 12px;
+    margin: 20px;
+    
+}
+.info-left {
+    margin-right: 80px;
+ 
+}
+.info-num {
+    width: 80px;
+    font-weight: 700;
+    
+}
+.value {
+    color:#626675;
+    padding-left: 40px;
+    
+}
+.info-item {
+    display: flex;
+    width: 400px;
+    padding: 8px 0;
+    border-bottom: 1px dotted #626675;
+}
+/* 角色介绍 */
+.actor {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    width: 1070px;
+    margin: 15px auto;
+}
+.actor-items {
+    margin: 15px 20px;
+}
+.actor-item {
+    padding: 15px 0;
+    width: 980px;
+    
+}
+.actor-img img {
+    width: 147px;
+    height: 180px;
+}
+.actor-info {
+    display: flex;
+    padding: 15px 0;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+.actor-text {
+    margin-left: 35px;
+}
+.actor-text h4 {
+    font-weight: 400;
+    color: #003eb3
+}
+.text-info {
+    margin: 10px 0;
+}
+.span1 {
+    color: #626675;
+}
+.actor-text p {
+    display: block;
+    font-size: 14px;
+    width: 600px;
+}
